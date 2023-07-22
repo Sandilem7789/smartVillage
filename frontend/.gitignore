@@ -1,0 +1,39 @@
+
+# Ignore editor and IDE specific files
+.vscode/
+.idea/
+
+# Ignore compiled and build artifacts
+/bin/
+/build/
+/out/
+/dist/
+
+# Ignore Node.js specific files
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore sensitive information (if applicable)
+secrets.json
+api_keys.json
+
+# Ignore user uploads (if applicable)
+/uploads/
+
+# Ignore backup and temporary files
+*.bak
+*.tmp
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore macOS specific files
+.DS_Store
