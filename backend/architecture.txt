@@ -1,0 +1,58 @@
+smart-village/
+  ├── backend/
+  │   ├── controllers/
+  │   │   ├── authController.js
+  │   │   ├── userController.js
+  │   │   ├── vendorController.js
+  │   │   ├── productController.js
+  │   │   └── cartController.js
+  │   ├── models/
+  │   │   ├── User.js
+  │   │   ├── Vendor.js
+  │   │   ├── Product.js
+  │   │   └── Order.js
+  │   ├── routes/
+  │   │   ├── authRoutes.js
+  │   │   ├── userRoutes.js
+  │   │   ├── vendorRoutes.js
+  │   │   ├── productRoutes.js
+  │   │   └── cartRoutes.js
+  │   ├── config/
+  │   │   ├── db.js
+  │   │   └── auth.js
+  │   ├── middleware/
+  │   │   ├── authMiddleware.js
+  │   │   └── errorMiddleware.js
+  │   ├── server.js
+  │   └── package.json
+  │
+  ├── frontend/
+  │   ├── public/
+  │   ├── src/
+  │   │   ├── assets/
+  │   │   ├── components/
+  │   │   │   ├── common/
+  │   │   │   │   ├── Header.js
+  │   │   │   │   └── Footer.js
+  │   │   │   ├── auth/
+  │   │   │   │   ├── Login.js
+  │   │   │   │   └── Register.js
+  │   │   │   ├── user/
+  │   │   │   │   ├── Profile.js
+  │   │   │   │   └── Dashboard.js
+  │   │   │   ├── vendor/
+  │   │   │   │   ├── VendorDashboard.js
+  │   │   │   │   └── VendorProducts.js
+  │   │   │   ├── product/
+  │   │   │   │   ├── ProductList.js
+  │   │   │   │   └── ProductDetails.js
+  │   │   │   └── cart/
+  │   │   │       ├── Cart.js
+  │   │   │       └── Checkout.js
+  │   │   ├── App.js
+  │   │   ├── index.js
+  │   │   └── setupTests.js
+  │   ├── package.json
+  │   └── .env
+  │
+  └── package.json
